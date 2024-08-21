@@ -1,0 +1,25 @@
+span.msfw-deleted,
+span.msfw-reload,
+span.msfw-click {
+	background-color:black;
+	color:white;
+}
+span.msfw-reload a,
+span.msfw-click a {
+	color:white;
+}
+span.msfw-spoiler {
+	background-color:black;
+	color:black;
+}
+span.msfw-spoiler:hover a,
+span.msfw-spoiler:hover {
+	background-color:inherit;
+	color:inherit;
+}
+span.msfw-spoiler .msfw-spoiler-inner {
+	visibility:hidden;
+}
+span.msfw-spoiler:hover .msfw-spoiler-inner {
+	visibility:visible;
+}
